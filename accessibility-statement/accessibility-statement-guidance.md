@@ -5,7 +5,7 @@ You can use a single statement for a set of forms if:
 * they all have the same legal body as owner (eg Environment Agency)
 * you are sure that a single statement will be correct for all the forms
 
-Use the Defra Qualtrics accessibility statement HTML template to form the basis of your own statement.
+Use the [Defra Qualtrics accessibility statement HTML template](qualtrics-generic-accessibility-statement.html) to form the basis of your own statement.
 
 To do this, create a new project.
 1. On the ‘Create a project’ screen, select ‘Survey’ to create a new survey from scratch.
