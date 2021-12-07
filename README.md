@@ -37,7 +37,9 @@ If you remove unnecessary questions you help people with access needs, who will 
 
 ## Structure your form to help users
 Organise your questions in a logical order that helps users. Group related questions together.
+
 Start with **one** thing per page. That doesn’t always mean one question per page. Avoid loading pages with lots of questions.
+
 Use either a question or a statement as the main page titles. Use questions or statements consistently.
 
 ## Write the questions and any guidance using clear language (Plain English)
