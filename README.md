@@ -171,7 +171,9 @@ Note: Qualtrics does not offer any automated approach for informing users whethe
 When data must be entered in a specific format or in a particular way, you must give clear instructions with the question. For example:
 
 > **Permit reference number**
+> 
 > Find this on your permit card. 
+> 
 > It’s 2 letters and 6 numbers. For example, AB123456.
 
 ### Checking entries: errors and validation
@@ -196,10 +198,12 @@ Put the most meaningful text at the start of a form label or heading. People ski
 
 For example:
 > Start date of this report
+> 
 > End date of this report
 
 Is better than
 > Period covered by this report - Start Date
+> 
 > Period covered by this report - End Date
 
 ### Help users complete multi-option questions
@@ -268,8 +272,11 @@ If you have several declarations that all need to be agreed with, combine them i
 Asking people to upload an image of a signature - an ‘electronic’ or ‘digital signature’ is not accessible to visually impaired people and in most cases not needed. Use a digital declaration instead. For example:
 
 > **Declaration by the registered person**
+> 
 > I confirm that the details I have given are correct.
+> 
 > Name of registered person
+> 
 > [ Submit ]
 
 ## Consider if users can submit a file instead of entering large amounts of data
