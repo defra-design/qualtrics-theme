@@ -322,7 +322,7 @@ To do this, create a new project.
 7. From here, go through the statement and add the details that are relevant to your form. If you are aware of any extra defects in your form, add those. 
 8. Go to ‘Look and feel’ and then ‘Style’
 9. Add the following code to the ‘Custom CSS’ field.
-  a. #NextButton{display:none!important}
+  * `#NextButton{display:none!important}`
 10. Select the ‘Apply’ button.
 
 You are legally responsible for the content of the statement. If you are unsure, ask you legal team to check and sign off.
@@ -332,7 +332,7 @@ Once complete, select the ‘Publish’ button - located back in the ‘Builder�
 Navigate back to the form that you are working on to add your accessibility statement.
 1. Go to ‘Look and feel’ and then ‘General’
 2. In the text field labelled ‘Footer’, insert the following code
-  a. <a href="LINK YOU COPIED EARLIER"  target="_blank">Accessibility Statement (opens in a new tab)</a>
+  * `<a href="LINK YOU COPIED EARLIER"  target="_blank">Accessibility Statement (opens in a new tab)</a>`
 3. Replace the placeholder text with the link that you copied when publishing the accessibility statement.
 4. Select the ‘Apply’ button.
 

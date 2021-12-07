@@ -1,4 +1,4 @@
-## Add an accessibility statement
+# Add an accessibility statement
 Each form needs to link to an accessibility statement to comply with the law.
 You can use a single statement for a set of forms if:
 
@@ -27,6 +27,6 @@ Once complete, select the ‘Publish’ button - located back in the ‘Builder�
 Navigate back to the form that you are working on to add your accessibility statement.
 1. Go to ‘Look and feel’ and then ‘General’
 2. In the text field labelled ‘Footer’, insert the following code
-  a. <a href="LINK YOU COPIED EARLIER"  target="_blank">Accessibility Statement (opens in a new tab)</a>
+  * `<a href="LINK YOU COPIED EARLIER"  target="_blank">Accessibility Statement (opens in a new tab)</a>`
 3. Replace the placeholder text with the link that you copied when publishing the accessibility statement.
 4. Select the ‘Apply’ button.
