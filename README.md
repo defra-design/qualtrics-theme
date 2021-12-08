@@ -54,15 +54,14 @@ If you need advice about how to do this read the [clear language guidance from C
 
 ## Building accessible pages
 ### Use the ‘Defra forms’ dynamic theme
-The ‘Defra forms’ theme has been created to make Qualtrics as accessible as possible. You must use this theme. Do not modify anything in the theme.
+The existing ‘Defra Core’ theme has some accessibility issues and currently requires additional styling to be applied to resolve these problems.
 
-If your form currently uses a different theme, you should change to the ‘Defra forms’ theme.
+To apply this additional styling:
 
-To change the theme:
-
-1. Go to ‘Look and feel’ and then ‘Styles’
-2. Select the ‘Defra forms’ theme
-3. Select the ‘Apply’ button.
+1. Go to ‘Look and feel’ and ensure that the 'Core Defra' theme is being used
+2. Navigate to the ‘Style’ panel
+3. The contents of the [Defra Qualtrics additional styling CSS](styling/defra-qualtrics-additional-styling.css) file can be pasted into the 'Custom CSS' field.
+4. Once complete, select the 'Apply' button.
 
 ### Setting up your template
 Ensure that the button text used in your form is consistent.
@@ -72,6 +71,7 @@ Ensure that the button text used in your form is consistent.
 3. For the ‘Back button text’ delete the existing text and enter ‘Back’.
 
 The Progress bar will be hidden by default, regardless of the selected option.
+
 Specify the department’s name within the survey header. For example, if this survey is being conducted for DEFRA, within the header will be: “Department for Environment Food & Rural Affairs”, or if it were being conducted for Natural England, the header would read “Natural England”. This department name is required as the logo is a decorative image which does not provide users of assistive technology with any information.
 
 Note: the Progress bar will be hidden by default, regardless of the selected option.
@@ -113,8 +113,8 @@ Select all of the text that you wish to convert into a heading and select the dr
 
 Headings should always be in order without skipping a level, i.e. a heading level 1 should be followed by heading level 2s, which should then be followed by heading level 3s.
 
-* Heading level 1 ➡️ heading level 2 ➡️ heading level 3 - ✅ *This pattern is correct as the heading level structure is consistent and does not skip a level*.
-* Heading level 1 ➡️ heading level 3 ➡️ heading level 5 - ❌ *This pattern is incorrect as heading levels are skipped*.
+* Heading level 1 (followed by a) heading level 2 (followed by a) heading level 3 - *This pattern is correct as the heading level structure is consistent and does not skip a level*.
+* Heading level 1 (followed by a) heading level 3 (followed by a) heading level 5 - *This pattern is incorrect as heading levels are skipped*.
 
 ## Building accessible questions
 ### Question types you can use
@@ -228,9 +228,11 @@ Do not put guidance text next to a question that is not related to the actual qu
 #### Guidance for options
 If possible, include guidance with the options and not separately. For example:
 
-**I only use this licence for:**
-(o) unpaid work as a volunteer when I am registered with an organisation or charity - no charge
-(o) research related to the protected species that is carried out by a student or employee of an academic institution or research body - no charge
+> **I only use this licence for:**
+> 
+> (o) unpaid work as a volunteer when I am registered with an organisation or charity - no charge
+> 
+> (o) research related to the protected species that is carried out by a student or employee of an academic institution or research body - no charge
 
 #### Guidance about what happens after the form is submitted is probably better placed at the end
 
