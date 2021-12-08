@@ -325,7 +325,7 @@ To do this, create a new project.
   * `#NextButton{display:none!important}`
 10. Select the ‘Apply’ button.
 
-You are legally responsible for the content of the statement. If you are unsure, ask you legal team to check and sign off.
+You are legally responsible for the content of the statement. If you are unsure, ask your legal team to check and sign off.
 
 Once complete, select the ‘Publish’ button - located back in the ‘Builder’ view. Be sure to copy the link that Qualtrics provides you with.
 
