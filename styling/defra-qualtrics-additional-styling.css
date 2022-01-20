@@ -43,6 +43,11 @@ a {
   font-size: 1.1875rem !important;
 }
 
+p,
+li{
+  margin-bottom: 1.25rem !important;
+}
+
 /* Implementing a font scale */
 h1 {
   font-size: 3rem !important;
@@ -77,6 +82,14 @@ h5 {
 h6 {
   font-size: 1rem;
   margin-bottom: 1.25rem !important;
+}
+
+:is(p, ul) + h2 {
+  padding-top: 1.25rem;
+}
+
+:is(p, ul) + :is(h3, h4, h5, h6) {
+  padding-top: 0.625rem;
 }
 
 /* Using the following rule to account for the mass of br tags that Qualtrics introduces causing lots of whitespace */
@@ -313,9 +326,6 @@ input[type="radio"]:focus + label.q-radio {
   padding-left: 0 !important;
   padding-right: 0 !important;
   line-height: 1.25 !important;
-}
-.Skin .QuestionText h2 {
-  padding-bottom: 0.625rem;
 }
 .Skin .QuestionText p {
   margin-top: 0.25rem;
