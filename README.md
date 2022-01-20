@@ -58,10 +58,11 @@ The existing ‘Defra Core’ theme has some accessibility issues and currently 
 
 To apply this additional styling:
 
-1. Go to ‘Look and feel’ and ensure that the 'Core Defra' theme is being used
-2. Navigate to the ‘Style’ panel
-3. The contents of the [Defra Qualtrics additional styling CSS](styling/defra-qualtrics-additional-styling.css) file can be pasted into the 'Custom CSS' field.
-4. Once complete, select the 'Apply' button.
+1. Go to ‘Look and feel’.
+2. Select the 'Core Defra' Dynamic Theme (not the static theme).
+3. Navigate to the ‘Style’ panel
+4. The contents of the [Defra Qualtrics additional styling CSS](styling/defra-qualtrics-additional-styling.css) file can be pasted into the 'Custom CSS' field.
+5. Once complete, select the 'Apply' button.
 
 ### Setting up your template
 Ensure that the button text used in your form is consistent.
@@ -69,6 +70,9 @@ Ensure that the button text used in your form is consistent.
 1. Go to ‘Look and feel’ and then ‘General’
 2. For the ‘Next button text’ delete the existing text and enter ‘Continue’.
 3. For the ‘Back button text’ delete the existing text and enter ‘Back’.
+
+#### If your survey only is a single page
+You should change the ‘Next button text’ to be 'Submit' rather than 'Continue'.
 
 The Progress bar will be hidden by default, regardless of the selected option.
 
